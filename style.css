@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(221, 225, 230);
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt {
+    font-family: "Delicious Handrawn", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+}
