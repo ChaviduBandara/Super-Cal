@@ -9,8 +9,8 @@ body {
 }
 
 .txt {
-    font-family: "Delicious Handrawn", serif;
-    font-weight: 400;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 2px;
     font-style: normal;
-    letter-spacing: 2px;
 }
