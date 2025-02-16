@@ -17,17 +17,14 @@
 //         console.log("You are not eligible");
 //     }
 
-
 //     switch(userAge){
 //         case 18:
 //             console.log("You are 18 years old!")
 //             break;
 //          case 19:
 //             console.log("You are 19 years old!")
-//             break;    
+//             break;
 //     }
-
-
 
 //     alert("Successfully Submited");
 
@@ -35,7 +32,6 @@
 //     console.log(userPassword);
 //     console.log(userAge);
 // });
-
 
 // const customers = [
 //     {
@@ -55,29 +51,57 @@
 //     }
 // ]
 
-// console.log(customers); 
+// console.log(customers);
 
 // console.log(customers[1].name);
 
+function add() {
+  let num1 = parseFloat(document.getElementById("num1").value);
+  let num2 = parseFloat(document.getElementById("num2").value);
+  document.getElementById("btn");
 
-function cal(){
+  let result = num1 + num2;
+
+  document.getElementById("result").innerHTML = "Result : " + result;
+}
+
+function sub() {
+  let num1 = parseFloat(document.getElementById("num1").value);
+  let num2 = parseFloat(document.getElementById("num2").value);
+  document.getElementById("btn");
+
+  let result = num1 - num2;
+
+  document.getElementById("result").innerHTML = "Result : " + result;
+}
+
+function multi() {
     let num1 = parseFloat(document.getElementById("num1").value);
     let num2 = parseFloat(document.getElementById("num2").value);
     document.getElementById("btn");
-
-    let result = num1 + num2;
-
+  
+    let result = num1 * num2;
+  
     document.getElementById("result").innerHTML = "Result : " + result;
-}
+  }
 
+  function div() {
+    let num1 = parseFloat(document.getElementById("num1").value);
+    let num2 = parseFloat(document.getElementById("num2").value);
+    document.getElementById("btn");
+  
+    let result = num1 / num2;
+  
+    document.getElementById("result").innerHTML = "Result : " + result;
+  }
 
 //Second method
 // function change(){
 //     let num1 = parseFloat(document.getElementById("num1").value);
-    
+
 //     document.getElementById("num1").value = "";
 //     document.getElementById("num1").placeholder = "Enter the second digit";
-//     document.getElementById("btn2").setAttribute("onclick", "calculate(" + num1 + ")"); 
+//     document.getElementById("btn2").setAttribute("onclick", "calculate(" + num1 + ")");
 //     document.getElementById("btn2").innerHTML = "Add";
 // }
 

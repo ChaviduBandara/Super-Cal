@@ -1,16 +1,19 @@
 body {
     background-color: rgb(221, 225, 230);
 }
-
 .container-fluid {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .txt {
     font-family: "Bitter", serif;
     font-optical-sizing: auto;
     font-weight: 2px;
     font-style: normal;
+}
+.input-group>.form-control{
+    display:flex;
+    width: 55%;
+    flex: none;
 }
